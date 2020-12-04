@@ -27,22 +27,5 @@ $theme-colors: (
   'primary': $main-color,
   'light': $light-color,
   'accent': $accent-color,
+  'dark': $dark-color,
 );
-
-// $light-color: #f5f6f5;
-// $dark-color: #374d61;
-// $main-color: #9eacb7;
-// $main-color-light: color.scale($main-color, $lightness: 60%);
-// $accent-color: #e5375a;
-// $accent-color-darker: color.scale($accent-color, $lightness: -30%);
-// $accent-color-lighter: color.scale($accent-color, $lightness: 30%);
-
-$roig: #aa1e22;
-$clar: #d7cfc0;
-$blau: #1789a5;
-
-$roig: #e63946;
-$clar: #f1faee;
-$blau: #a8dadc;
-$blau2: #457b9d;
-$blau3: #1d3557;

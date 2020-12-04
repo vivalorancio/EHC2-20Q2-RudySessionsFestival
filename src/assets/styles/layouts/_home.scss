@@ -36,13 +36,8 @@ a:visited {
 header {
   margin: 0 auto;
   text-align: center;
-  //background-color: $main-color;
   color: $light-color;
   border-bottom: 1px solid $dark-color;
-
-  @media (min-width: 768px) {
-    // padding: 50px 0 40px;
-  }
 }
 
 .header {
@@ -133,6 +128,50 @@ header {
   font-style: italic;
   color: $main-color;
 }
+
+/* ------------------------------------ *\
+   #INFORMATION PAGE
+\* ------------------------------------ */
+
+.information__title {
+  font-style: italic;
+  font-family: $font-family-serif;
+}
+
+.article {
+  font-family: $font-family-serif;
+  font-size: 1.1em;
+}
+
+.article__destacat {
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.article em {
+  font-weight: bold;
+}
+
+.article__blockquote {
+  border-top: 3px solid $accent-color;
+  border-bottom: 3px solid $accent-color;
+  font-style: italic;
+  margin: 15px 0;
+  padding: 20px 0;
+  text-align: right;
+  color: $accent-color;
+}
+
+.article__cita {
+  font-style: normal;
+  font-size: 0.7em;
+  width: 100%;
+  line-height: 1em;
+}
+
+/* ------------------------------------ *\
+   #CONTACT PAGE
+\* ------------------------------------ */
 
 .location {
   padding-bottom: 40px;
