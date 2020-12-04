@@ -48,7 +48,44 @@
         <main class="main">
             <div class="wrap">
                 <h1 class="main__title">Contact</h1>
-                MAIN MAIN MAIN MAIN MAIN
+
+                <div class="location">
+                    <h3>Location</h3>
+                    <div id="map" class="location__map"></div>
+                    <address class="location__address">
+                        <span>Casa Planas.</span> Avinguda de Sant Ferran, 21.
+                        07011 Palma.
+                    </address>
+                    <button class="btn btn-accent">Open Map</button>
+                </div>
+                <div class="newsletter">
+                    <h3>Subscribe to our newsletter</h3>
+                    <form>
+                        <div class="form-group">
+                            <label for="email">Email address</label>
+                            <input
+                                type="email"
+                                class="form-control"
+                                id="email"
+                                placeholder="Enter email"
+                            />
+                        </div>
+                        <div class="form-check">
+                            <input
+                                type="checkbox"
+                                class="form-check-input"
+                                id="formcheck"
+                            />
+                            <label class="form-check-label" for="formcheck"
+                                >I accept the
+                                <a href="#">privacy policy</a></label
+                            >
+                        </div>
+                        <button type="submit" class="btn btn-accent">
+                            Submit
+                        </button>
+                    </form>
+                </div>
             </div>
         </main>
         <footer>

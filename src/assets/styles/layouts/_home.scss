@@ -134,6 +134,26 @@ header {
   color: $main-color;
 }
 
+.location {
+  padding-bottom: 40px;
+}
+
+.location__map {
+  height: 200px;
+
+  @media (min-width: 576px) {
+    height: 400px;
+  }
+
+  @media (min-width: 768px) {
+    height: 600px;
+  }
+}
+
+.location__address span {
+  font-weight: bold;
+}
+
 /* ------------------------------------ *\
    #FOOTER
 \* ------------------------------------ */
